@@ -7,4 +7,6 @@ def display_board
 
   row.push(cell).push(pipe).push(cell).push(pipe).push(cell)
 
+  puts row
+
 end
