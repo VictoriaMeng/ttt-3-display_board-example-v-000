@@ -5,6 +5,6 @@ def display_board
   pipe = "|"
   dash = "-----------"
 
-  row.push()
+  row.push(cell).push(pipe).push(cell).push(pipe).push(cell)
 
 end
